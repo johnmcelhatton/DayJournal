@@ -10,7 +10,7 @@ import Foundation
 class JournalEntry: Identifiable { //xcode shows that each of these now has an ID making them unique. If you are going gto list things they must be unique this identifiable
                                    // create class with its properties and then we are going to create individual instances (objects)of the class
   var title: String = ""
-  var  text: String = ""
+  var  text: String = "" //full text of day
   var  rating: Int = 1
   var date: Date = Date()  //date type
   
